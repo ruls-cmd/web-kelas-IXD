@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>IXD — A Chapter To Remember</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =========================
+     LOADER
+========================= -->
+
+<div class="loader" id="loader">
+
+    <div class="loader-inner">
+
+        <span>CLASS</span>
+
+        <strong>IXD</strong>
+
+        <small>2026</small>
+
+    </div>
+
+</div>
+
+
+<!-- =========================
+     NAVBAR
+========================= -->
+
+<header class="navbar" id="navbar">
+
+    <a href="#home" class="brand">
+        IXD<span>.</span>
+    </a>
+
+    <nav>
+
+        <a href="#home">Home</a>
+
+        <a href="#members">Members</a>
+
+        <a href="#story">Story</a>
+
+        <a href="#gallery">Gallery</a>
+
+    </nav>
+
+    <a href="#final" class="nav-button">
+        Our Chapter
+    </a>
+
+</header>
+
+
+<!-- =========================
+     HERO
+========================= -->
+
+<main>
+
+<section class="hero" id="home">
+
+    <div class="hero-text reveal">
+
+        <span class="eyebrow">
+            CLASS IXD · 2026
+        </span>
+
+        <h1>
+            A Chapter
+            <em>To Remember.</em>
+        </h1>
+
+        <p>
+            Dua puluh lima nama, dua guru,
+            dan satu perjalanan yang akan selalu
+            menjadi bagian dari cerita kita.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#members" class="button primary">
+                Meet The Class
+            </a>
+
+            <a href="#gallery" class="button secondary">
+                View Memories
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-visual reveal">
+
+        <div class="hero-frame">
+
+            <img
+                src="foto/kelas.jpg"
+                alt="Foto kelas IXD"
+            >
+
+            <div class="photo-placeholder">
+
+                <span>IXD</span>
+
+                <small>
+                    CLASS PHOTO
+                </small>
+
+            </div>
+
+        </div>
+
+        <div class="hero-caption">
+            <span>01</span>
+            Our Class
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     INTRO QUOTE
+========================= -->
+
+<section class="quote-section">
+
+    <div class="quote-mark">
+        “
+    </div>
+
+    <blockquote class="reveal">
+
+        Tidak semua orang yang datang
+        ke dalam hidup kita akan tinggal selamanya.
+        Tapi beberapa orang meninggalkan
+        cerita yang tidak akan pernah benar-benar pergi.
+
+    </blockquote>
+
+    <span class="quote-line">
+        — IXD, 2026 —
+    </span>
+
+</section>
+
+
+<!-- =========================
+     NUMBERS
+========================= -->
+
+<section class="numbers">
+
+    <div class="section-title reveal">
+
+        <span>
+            THE CLASS
+        </span>
+
+        <h2>
+            More than numbers.
+        </h2>
+
+    </div>
+
+
+    <div class="number-grid">
+
+        <article class="number-card reveal">
+
+            <strong>
+                25
+            </strong>
+
+            <span>
+                Students
+            </span>
+
+        </article>
+
+
+        <article class="number-card reveal">
+
+            <strong>
+                02
+            </strong>
+
+            <span>
+                Teachers
+            </span>
+
+        </article>
+
+
+        <article class="number-card reveal">
+
+            <strong>
+                01
+            </strong>
+
+            <span>
+                Class
+            </span>
+
+        </article>
+
+
+        <article class="number-card reveal">
+
+            <strong>
+                ∞
+            </strong>
+
+            <span>
+                Memories
+            </span>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     MEMBERS
+========================= -->
+
+<section class="members" id="members">
+
+    <div class="section-title centered reveal">
+
+        <span>
+            THE PEOPLE
+        </span>
+
+        <h2>
+            Meet Class IXD
+        </h2>
+
+        <p>
+            25 orang yang pernah berbagi satu ruang,
+            satu cerita, dan satu perjalanan.
+        </p>
+
+    </div>
+
+
+    <div class="students-grid" id="studentsGrid"></div>
+
+</section>
+
+
+<!-- =========================
+     TEACHERS
+========================= -->
+
+<section class="teachers">
+
+    <div class="section-title centered reveal">
+
+        <span>
+            THE GUIDES
+        </span>
+
+        <h2>
+            Our Teachers
+        </h2>
+
+        <p>
+            Dua sosok yang menemani perjalanan
+            kelas IXD.
+        </p>
+
+    </div>
+
+
+    <div class="teacher-grid">
+
+
+        <article class="teacher-card reveal">
+
+            <div class="teacher-photo">
+
+                <img
+                    src="foto/guru01.jpg"
+                    alt="Uswatun Khasanah"
+                >
+
+                <div class="photo-placeholder">
+
+                    <span>PHOTO</span>
+
+                </div>
+
+            </div>
+
+            <div class="teacher-info">
+
+                <small>
+                    TEACHER
+                </small>
+
+                <h3>
+                    Uswatun Khasanah, S.Pd
+                </h3>
+
+                <p>
+                    Wali Kelas IXD
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <article class="teacher-card reveal">
+
+            <div class="teacher-photo">
+
+                <img
+                    src="foto/guru02.jpg"
+                    alt="Siti Oktavia"
+                >
+
+                <div class="photo-placeholder">
+
+                    <span>PHOTO</span>
+
+                </div>
+
+            </div>
+
+            <div class="teacher-info">
+
+                <small>
+                    TEACHER
+                </small>
+
+                <h3>
+                    Siti Oktavia, S.Pd
+                </h3>
+
+                <p>
+                    Guru Pendamping Kelas IXD
+                </p>
+
+            </div>
+
+        </article>
+
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     STORY
+========================= -->
+
+<section class="story" id="story">
+
+    <div class="story-heading reveal">
+
+        <span>
+            OUR JOURNEY
+        </span>
+
+        <h2>
+            Every chapter<br>
+            had its moment.
+        </h2>
+
+    </div>
+
+
+    <div class="timeline">
+
+
+        <article class="timeline-item reveal">
+
+            <div class="timeline-number">
+                01
+            </div>
+
+            <div class="timeline-content">
+
+                <span>
+                    THE BEGINNING
+                </span>
+
+                <h3>
+                    Pertama Kali Bersama
+                </h3>
+
+                <p>
+                    Di sinilah semuanya dimulai.
+                    Orang-orang dengan karakter berbeda
+                    dipertemukan dalam satu kelas:
+                    IXD.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <article class="timeline-item reveal">
+
+            <div class="timeline-number">
+                02
+            </div>
+
+            <div class="timeline-content">
+
+                <span>
+                    THE DAYS
+                </span>
+
+                <h3>
+                    Hari-Hari di Kelas
+                </h3>
+
+                <p>
+                    Tugas, bercanda, kerja kelompok,
+                    belajar bersama, bahkan hal-hal kecil
+                    yang dulu terasa biasa.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <article class="timeline-item reveal">
+
+            <div class="timeline-number">
+                03
+            </div>
+
+            <div class="timeline-content">
+
+                <span>
+                    THE MEMORIES
+                </span>
+
+                <h3>
+                    Momen yang Berarti
+                </h3>
+
+                <p>
+                    Setiap foto menyimpan cerita.
+                    Setiap cerita menyimpan seseorang.
+                    Dan setiap seseorang menjadi bagian
+                    dari IXD.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <article class="timeline-item reveal">
+
+            <div class="timeline-number">
+                04
+            </div>
+
+            <div class="timeline-content">
+
+                <span>
+                    THE END
+                </span>
+
+                <h3>
+                    Sampai Jumpa, IXD.
+                </h3>
+
+                <p>
+                    Kita mungkin akan berjalan
+                    ke arah yang berbeda.
+                    Tapi chapter ini akan selalu
+                    menjadi bagian dari perjalanan kita.
+                </p>
+
+            </div>
+
+        </article>
+
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     GALLERY
+========================= -->
+
+<section class="gallery-section" id="gallery">
+
+    <div class="section-title centered reveal">
+
+        <span>
+            MEMORIES
+        </span>
+
+        <h2>
+            Moments We Keep
+        </h2>
+
+        <p>
+            Tempat untuk menyimpan foto-foto
+            terbaik kelas IXD.
+        </p>
+
+    </div>
+
+
+    <div class="gallery-grid">
+
+
+        <div class="gallery-item large reveal">
+
+            <img
+                src="foto/kenangan01.jpg"
+                alt="Kenangan 01"
+            >
+
+            <div class="photo-placeholder">
+                <span>01</span>
+                <small>MEMORY</small>
+            </div>
+
+        </div>
+
+
+        <div class="gallery-item reveal">
+
+            <img
+                src="foto/kenangan02.jpg"
+                alt="Kenangan 02"
+            >
+
+            <div class="photo-placeholder">
+                <span>02</span>
+                <small>MEMORY</small>
+            </div>
+
+        </div>
+
+
+        <div class="gallery-item reveal">
+
+            <img
+                src="foto/kenangan03.jpg"
+                alt="Kenangan 03"
+            >
+
+            <div class="photo-placeholder">
+                <span>03</span>
+                <small>MEMORY</small>
+            </div>
+
+        </div>
+
+
+        <div class="gallery-item reveal">
+
+            <img
+                src="foto/kenangan04.jpg"
+                alt="Kenangan 04"
+            >
+
+            <div class="photo-placeholder">
+                <span>04</span>
+                <small>MEMORY</small>
+            </div>
+
+        </div>
+
+
+        <div class="gallery-item large reveal">
+
+            <img
+                src="foto/kenangan05.jpg"
+                alt="Kenangan 05"
+            >
+
+            <div class="photo-placeholder">
+                <span>05</span>
+                <small>MEMORY</small>
+            </div>
+
+        </div>
+
+
+        <div class="gallery-item reveal">
+
+            <img
+                src="foto/kenangan06.jpg"
+                alt="Kenangan 06"
+            >
+
+            <div class="photo-placeholder">
+                <span>06</span>
+                <small>MEMORY</small>
+            </div>
+
+        </div>
+
+
+        <div class="gallery-item reveal">
+
+            <img
+                src="foto/kenangan07.jpg"
+                alt="Kenangan 07"
+            >
+
+            <div class="photo-placeholder">
+                <span>07</span>
+                <small>MEMORY</small>
+            </div>
+
+        </div>
+
+
+        <div class="gallery-item reveal">
+
+            <img
+                src="foto/kenangan08.jpg"
+                alt="Kenangan 08"
+            >
+
+            <div class="photo-placeholder">
+                <span>08</span>
+                <small>MEMORY</small>
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     FINAL
+========================= -->
+
+<section class="final" id="final">
+
+    <div class="final-inner reveal">
+
+        <span>
+            ONE LAST CHAPTER
+        </span>
+
+        <h2>
+            Wherever we go,<br>
+            <em>remember IXD.</em>
+        </h2>
+
+        <p>
+            Terima kasih untuk semua tawa,
+            cerita, kesalahan, perjuangan,
+            dan momen yang pernah kita bagi.
+        </p>
+
+        <div class="final-line"></div>
+
+        <strong>
+            IXD · 2026
+        </strong>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer>
+
+    <div class="footer-brand">
+        IXD<span>.</span>
+    </div>
+
+    <p>
+        A chapter to remember.
+    </p>
+
+    <small>
+        © 2026 Class IXD
+    </small>
+
+</footer>
+
+
+<!-- =========================
+     MODAL
+========================= -->
+
+<div class="modal" id="profileModal">
+
+    <button
+        class="modal-close"
+        id="closeModal"
+    >
+        ×
+    </button>
+
+    <div class="modal-box">
+
+        <div class="modal-photo">
+
+            <img
+                id="modalImage"
+                src=""
+                alt=""
+            >
+
+            <div
+                class="photo-placeholder"
+                id="modalPlaceholder"
+            >
+                <span>PHOTO</span>
+            </div>
+
+        </div>
+
+
+        <div class="modal-info">
+
+            <small id="modalNumber">
+                ABSEN 01
+            </small>
+
+            <h2 id="modalName">
+                Nama
+            </h2>
+
+            <div class="modal-divider"></div>
+
+            <p id="modalMessage">
+                Kesan dan pesan bisa
+                ditulis di sini.
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
